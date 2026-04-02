@@ -2,8 +2,7 @@
 
 Deploy smart contracts to ToroNet.
 
-Installation
-------------
+## Installation
 
 Global:
 
@@ -13,8 +12,7 @@ npm install -g toronetdeploy
 
 Or install locally and run via `node index.js`.
 
-Usage
------
+## Usage
 
 Run the CLI (if installed globally):
 
