@@ -1,0 +1,20 @@
+{
+  "name": "toronetdeploy",
+  "version": "1.0.0",
+  "description": "Deploy smart contracts to ToroNet",
+  "main": "index.js",
+  "bin": {
+    "toronetdeploy": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["toronet", "smart-contracts", "deployment"],
+  "author": "emmo00",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "solc": "^0.8.34",
+    "torosdk": "^0.2.0"
+  }
+}
