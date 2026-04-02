@@ -1,5 +1,0 @@
----
-'toronetdeploy': major
----
-
-Initial Commit
