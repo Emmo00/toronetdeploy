@@ -10,6 +10,8 @@
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "ci": "npm run check-format",
+    "local-release": "changeset version && changeset publish",
+    "prepublishOnly": "npm run ci",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -27,5 +29,8 @@
   "dependencies": {
     "solc": "^0.8.34",
     "torosdk": "^0.2.0"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.30.0"
   }
 }

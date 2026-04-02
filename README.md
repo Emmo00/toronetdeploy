@@ -28,5 +28,5 @@ Or run directly:
 node index.js
 ```
 
-License: ISC
-Author: emmo00
+License: MIT
+[emmo00](https://github.com/emmo00)emmo00
