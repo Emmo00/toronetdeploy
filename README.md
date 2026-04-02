@@ -2,29 +2,24 @@
 
 Deploy smart contracts to ToroNet.
 
-## Installation
+## Install
 
-Global:
-
-```
-npm install -g toronetdeploy
-```
-
-Or install locally and run via `node index.js`.
-
-## Usage
-
-Run the CLI (if installed globally):
+Run via `npx` (no global install required):
 
 ```
-toronetdeploy
+npx toronetdeploy --file contracts/MyToken.sol --contract MyToken \
+	--owner 0xYourOwnerAddress --args '["0xabc...", "1000"]' --network testnet
 ```
 
-Or run directly:
+## Usage Options
 
-```
-node index.js
-```
+- `--file` Path to the Solidity file containing the contract
+- `--contract` Name of the contract to deploy (must be in the specified file)
+- `--owner` Address of the owner deploying the contract
+- `--args` Constructor arguments as JSON array or comma-separated values
+- `--network` Network to deploy to (default: `testnet`)
+- `--token` Optional token for deployment
 
 License: MIT
-[emmo00](https://github.com/emmo00)emmo00
+
+Author: Emmanuel Nwafor
