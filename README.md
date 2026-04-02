@@ -22,4 +22,4 @@ npx toronetdeploy --file contracts/MyToken.sol --contract MyToken \
 
 License: MIT
 
-Author: Emmanuel Nwafor
+Author: [Emmanuel Nwafor](https://github.com/emmo00)
