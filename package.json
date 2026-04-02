@@ -7,12 +7,23 @@
     "toronetdeploy": "./index.js"
   },
   "scripts": {
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "ci": "npm run check-format",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["toronet", "smart-contracts", "deployment"],
+  "keywords": [
+    "toronet",
+    "smart-contracts",
+    "deployment"
+  ],
   "author": "emmo00",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmo00/toronetdeploy.git"
+  },
   "dependencies": {
     "solc": "^0.8.34",
     "torosdk": "^0.2.0"
